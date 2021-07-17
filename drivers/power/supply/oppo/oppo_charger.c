@@ -102,7 +102,7 @@ static struct oppo_chg_chip *g_charger_chip = NULL;
 #define LIMIT_INPUT_CURRENT_MA_HIGH_1879 900
 #endif
 
-int enable_charger_log = 2;
+int enable_charger_log = 0;
 int charger_abnormal_log = 0;
 int tbatt_pwroff_enable = 1;
 
