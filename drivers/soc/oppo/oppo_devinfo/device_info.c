@@ -375,7 +375,7 @@ static int subboard_init(struct devinfo_data *const devinfo_data) {
 	struct device_node *np = NULL;
 #ifdef ODM_HQ_EDIT
 /*wangtaotao@ODM.BSP.kernel, 2019/11/19, Add for sdcard detect*/
-	struct proc_dir_entry *pentry;
+	struct proc_dir_entry __maybe_unused *pentry;
 #endif
 	np = devinfo_data->devinfo->dev.of_node;
 
